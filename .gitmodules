@@ -1,0 +1,3 @@
+[submodule "themes/astronaut"]
+	path = themes/astronaut
+	url = https://github.com/kanghuahe/hugo-astronaut
