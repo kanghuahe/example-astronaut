@@ -1,3 +1,56 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://example.com/"
+
+theme = "astronaut"
+
+title = "Example Astronaut"
+
+languageCode = "zh"
+
+defaultContentLanguage = "zh"
+
+copyright = "Some copyright notice - [my license](https://example.com/license)"
+
+hasCJKLanguage = true
+
+paginate = 2
+
+summaryLength = 70
+
+[menus]
+    [[menu.main]]
+        name = "Home"
+        identifier = "home"
+        url = "/"
+        weight = 10
+    [[menu.main]]
+        name = "Posts"
+        identifier = "posts"
+        url = "/posts"
+        weight = 20
+    [[menu.main]]
+        name = "Categories"
+        identifier = "categories"
+        url = "/categories"
+        weight = 30
+    [[menu.main]]
+        name = "Tags"
+        identifier = "tags"
+        url = "/tags"
+        weight = 40
+    [[menu.main]]
+        name = "About"
+        identifier = "about"
+        url = "/about"
+        weight = 50
+
+    # 图标菜单
+    [[menu.icons]]
+        identifier = "github"
+        name = "GitHub"
+        url = "https://github.com/kanghuahe"
+        weight = 60
+    [[menu.icons]]
+        identifier = "email"
+        name = "Email"
+        url = "mailto://kanghuahe.dx@gmail.com"
+        weight = 70

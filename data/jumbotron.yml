@@ -1,0 +1,22 @@
+title: Example Astronaut
+hugeTitle: true
+subtitle: subtitle
+image: /jumbotron_image.svg
+imagePosition: left  # values: left, right, top, bottom
+
+# 背景视频
+backgroundVideo: /jumbotron_video.mp4
+
+# 最好同时提供mp4和web源以达到更好的适配效果
+backgroundVideoMp4: /jumbotron_video.mp4
+backgroundVideoWebm: /jumbotron_video.webm
+videoOpacity: 1.0
+textShadow: false
+fullscreen: false
+downArrow: true
+whiteText: true  # 巨幕中强制显示白色文本
+links:
+  - title: About me
+    link: /about
+  - title: Read my blog
+    link: /posts

@@ -1,0 +1,12 @@
+- title: My other projects
+  links:
+    - title: Project1
+      link: https://project1.com
+    - title: Project2
+      link: https://project2.com
+- title: About me
+  links:
+    - title: My personal website
+      link: https://mysite.com
+    - title: My GitHub
+      link: https://github.com/mygithubxxx
